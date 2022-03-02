@@ -1,0 +1,44 @@
+.intelHeader {
+    background-color: #fff;
+    color: #000;
+}
+
+.logo {
+  padding: 5px 0px 5px 10px;
+  width: 55px;
+  height: 55px;
+  display: block;
+}
+
+#title {
+  font-size: 100px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: verdana;
+  margin-bottom: 0;
+  color: #fff;
+  opacity: 0.6;
+}
+
+#bg-container img {
+  position: fixed;
+  bottom: 0;
+
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: bottom;
+
+  left:0;
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+
+}
+
+#bg-container img.transparent {
+  opacity:0;
+}
